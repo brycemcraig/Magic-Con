@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PhotosTableViewController.h
 //  PhotoViewer
 //
 //  Created by Bryce Craig on 3/10/12.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Speaker.h"
+#import "DisplayViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface PhotosTableViewController : UITableViewController
 
 @end
