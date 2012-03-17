@@ -1,6 +1,6 @@
 //
-//  PhotosTableViewController.h
-//  PhotoViewer
+//  SpeakersTableViewController.h
+//  Magic-Con
 //
 //  Created by Bryce Craig on 3/10/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
@@ -10,6 +10,6 @@
 #import "Speaker.h"
 #import "DisplayViewController.h"
 
-@interface PhotosTableViewController : UITableViewController
+@interface SpeakersTableViewController : UITableViewController
 
 @end

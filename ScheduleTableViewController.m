@@ -14,6 +14,8 @@
 
 @implementation ScheduleTableViewController
 
+NSMutableArray *scheduleArray;
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -26,6 +28,57 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
+    scheduleArray = [[NSMutableArray alloc] init];
+    
+    Event *event = [[Event alloc] init];
+    [event setName:@"test1"];
+    [event setTime:@"10am"];
+    [scheduleArray addObject:event];
+    
+    event = [[Event alloc] init];
+    [event setName:@"test2"];
+    [event setTime:@"12pm"];
+    [scheduleArray addObject:event];
+    
+    event = [[Event alloc] init];
+    [event setName:@"test3"];
+    [event setTime:@"2pm"];
+    [scheduleArray addObject:event];
+    
+    event = [[Event alloc] init];
+    [event setName:@""];
+    [event setTime:@""];
+    [scheduleArray addObject:event];
+    
+    event = [[Event alloc] init];
+    [event setName:@""];
+    [event setTime:@""];
+    [scheduleArray addObject:event];
+    
+    event = [[Event alloc] init];
+    [event setName:@""];
+    [event setTime:@""];
+    [scheduleArray addObject:event];
+    
+    event = [[Event alloc] init];
+    [event setName:@""];
+    [event setTime:@""];
+    [scheduleArray addObject:event];
+    
+    event = [[Event alloc] init];
+    [event setName:@""];
+    [event setTime:@""];
+    [scheduleArray addObject:event];
+    
+    event = [[Event alloc] init];
+    [event setName:@""];
+    [event setTime:@""];
+    [scheduleArray addObject:event];
+    
+    
+    
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -50,22 +103,23 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 4;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [scheduleArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"ScheduleCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    Event *current = [scheduleArray objectAtIndex:indexPath.row];
+    [cell.textLabel setText:[current time]];
     
     // Configure the cell...
     

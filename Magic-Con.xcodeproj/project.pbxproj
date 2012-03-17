@@ -10,27 +10,110 @@
 		0B32FA71150BF1270073511B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA70150BF1270073511B /* UIKit.framework */; };
 		0B32FA73150BF1270073511B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA72150BF1270073511B /* Foundation.framework */; };
 		0B32FA75150BF1270073511B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA74150BF1270073511B /* CoreGraphics.framework */; };
-		0B32FA7B150BF1270073511B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B32FA79150BF1270073511B /* InfoPlist.strings */; };
-		0B32FA7D150BF1270073511B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B32FA7C150BF1270073511B /* main.m */; };
-		0B32FA81150BF1270073511B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B32FA80150BF1270073511B /* AppDelegate.m */; };
-		0B32FA84150BF1270073511B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B32FA82150BF1270073511B /* MainStoryboard.storyboard */; };
-		0B32FA87150BF1270073511B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B32FA86150BF1270073511B /* ViewController.m */; };
+		8AF969A915148120009D4B3E /* adam-rubin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697215148120009D4B3E /* adam-rubin.jpeg */; };
+		8AF969AA15148120009D4B3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9697415148120009D4B3E /* AppDelegate.m */; };
+		8AF969AB15148120009D4B3E /* brad-fulton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697515148120009D4B3E /* brad-fulton.jpeg */; };
+		8AF969AC15148120009D4B3E /* chad-long.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697615148120009D4B3E /* chad-long.jpeg */; };
+		8AF969AD15148120009D4B3E /* chris-korn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697715148120009D4B3E /* chris-korn.jpeg */; };
+		8AF969AE15148120009D4B3E /* Clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697815148120009D4B3E /* Clock.png */; };
+		8AF969AF15148120009D4B3E /* Clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697915148120009D4B3E /* Clock@2x.png */; };
+		8AF969B015148120009D4B3E /* cyril-takayama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697A15148120009D4B3E /* cyril-takayama.jpeg */; };
+		8AF969B115148120009D4B3E /* dani-daortiz.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697B15148120009D4B3E /* dani-daortiz.jpeg */; };
+		8AF969B215148120009D4B3E /* daniel-garcia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697C15148120009D4B3E /* daniel-garcia.jpeg */; };
+		8AF969B315148120009D4B3E /* david-acer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697D15148120009D4B3E /* david-acer.jpeg */; };
+		8AF969B415148120009D4B3E /* david-blaine.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697E15148120009D4B3E /* david-blaine.jpeg */; };
+		8AF969B515148120009D4B3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697F15148120009D4B3E /* Default.png */; };
+		8AF969B615148120009D4B3E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698015148120009D4B3E /* Default@2x.png */; };
+		8AF969B715148120009D4B3E /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9698215148120009D4B3E /* DisplayViewController.m */; };
+		8AF969B815148120009D4B3E /* doug-mckenzie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698315148120009D4B3E /* doug-mckenzie.jpeg */; };
+		8AF969B915148120009D4B3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698515148120009D4B3E /* InfoPlist.strings */; };
+		8AF969BA15148120009D4B3E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698715148120009D4B3E /* MainStoryboard.storyboard */; };
+		8AF969BB15148120009D4B3E /* enrico-de-la-vega.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698915148120009D4B3E /* enrico-de-la-vega.jpeg */; };
+		8AF969BC15148120009D4B3E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9698B15148120009D4B3E /* Event.m */; };
+		8AF969BD15148120009D4B3E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698C15148120009D4B3E /* Icon.png */; };
+		8AF969BE15148120009D4B3E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698D15148120009D4B3E /* Icon@2x.png */; };
+		8AF969BF15148120009D4B3E /* jared-kopf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698E15148120009D4B3E /* jared-kopf.jpeg */; };
+		8AF969C015148120009D4B3E /* jim-steinmeyer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698F15148120009D4B3E /* jim-steinmeyer.jpeg */; };
+		8AF969C115148120009D4B3E /* kevin-ho.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699015148120009D4B3E /* kevin-ho.jpeg */; };
+		8AF969C215148120009D4B3E /* lance-pierce.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699115148120009D4B3E /* lance-pierce.jpeg */; };
+		8AF969C315148120009D4B3E /* Magic-Con-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699215148120009D4B3E /* Magic-Con-Info.plist */; };
+		8AF969C415148120009D4B3E /* Magic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699415148120009D4B3E /* Magic.png */; };
+		8AF969C515148120009D4B3E /* Magic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699515148120009D4B3E /* Magic@2x.png */; };
+		8AF969C615148120009D4B3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9699615148120009D4B3E /* main.m */; };
+		8AF969C715148120009D4B3E /* michael-weber.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699715148120009D4B3E /* michael-weber.jpeg */; };
+		8AF969C815148120009D4B3E /* piff-the-magic-dragon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699815148120009D4B3E /* piff-the-magic-dragon.jpeg */; };
+		8AF969C915148120009D4B3E /* ricky-smith.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699915148120009D4B3E /* ricky-smith.jpeg */; };
+		8AF969CA15148120009D4B3E /* rob-zabrecky.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699A15148120009D4B3E /* rob-zabrecky.jpeg */; };
+		8AF969CB15148120009D4B3E /* roberto-mansilla.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699B15148120009D4B3E /* roberto-mansilla.jpeg */; };
+		8AF969CC15148120009D4B3E /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9699D15148120009D4B3E /* ScheduleTableViewController.m */; };
+		8AF969CD15148120009D4B3E /* Speaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9699F15148120009D4B3E /* Speaker.m */; };
+		8AF969CE15148120009D4B3E /* SpeakersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF969A115148120009D4B3E /* SpeakersTableViewController.m */; };
+		8AF969CF15148120009D4B3E /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF969A215148120009D4B3E /* Star.png */; };
+		8AF969D015148120009D4B3E /* Star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF969A315148120009D4B3E /* Star@2x.png */; };
+		8AF969D115148120009D4B3E /* tony-chang.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF969A415148120009D4B3E /* tony-chang.jpeg */; };
+		8AF969D215148120009D4B3E /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF969A515148120009D4B3E /* Twitter.png */; };
+		8AF969D315148120009D4B3E /* Twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF969A615148120009D4B3E /* Twitter@2x.png */; };
+		8AF969D415148120009D4B3E /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF969A715148120009D4B3E /* User.png */; };
+		8AF969D515148120009D4B3E /* User@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF969A815148120009D4B3E /* User@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B32FA6C150BF1270073511B /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B32FA6C150BF1270073511B /* Magic-Con.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic-Con.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B32FA70150BF1270073511B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B32FA72150BF1270073511B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0B32FA74150BF1270073511B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0B32FA78150BF1270073511B /* PhotoViewer-Info.plist */ = {isa = PBXFileReference; path = "PhotoViewer-Info.plist"; sourceTree = "<group>"; };
-		0B32FA7A150BF1270073511B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0B32FA7C150BF1270073511B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0B32FA7E150BF1270073511B /* PhotoViewer-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoViewer-Prefix.pch"; sourceTree = "<group>"; };
-		0B32FA7F150BF1270073511B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		0B32FA80150BF1270073511B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0B32FA83150BF1270073511B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		0B32FA85150BF1270073511B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		0B32FA86150BF1270073511B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AF9697215148120009D4B3E /* adam-rubin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adam-rubin.jpeg"; sourceTree = "<group>"; };
+		8AF9697315148120009D4B3E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AF9697415148120009D4B3E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AF9697515148120009D4B3E /* brad-fulton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brad-fulton.jpeg"; sourceTree = "<group>"; };
+		8AF9697615148120009D4B3E /* chad-long.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chad-long.jpeg"; sourceTree = "<group>"; };
+		8AF9697715148120009D4B3E /* chris-korn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chris-korn.jpeg"; sourceTree = "<group>"; };
+		8AF9697815148120009D4B3E /* Clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clock.png; sourceTree = "<group>"; };
+		8AF9697915148120009D4B3E /* Clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock@2x.png"; sourceTree = "<group>"; };
+		8AF9697A15148120009D4B3E /* cyril-takayama.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cyril-takayama.jpeg"; sourceTree = "<group>"; };
+		8AF9697B15148120009D4B3E /* dani-daortiz.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dani-daortiz.jpeg"; sourceTree = "<group>"; };
+		8AF9697C15148120009D4B3E /* daniel-garcia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "daniel-garcia.jpeg"; sourceTree = "<group>"; };
+		8AF9697D15148120009D4B3E /* david-acer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "david-acer.jpeg"; sourceTree = "<group>"; };
+		8AF9697E15148120009D4B3E /* david-blaine.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "david-blaine.jpeg"; sourceTree = "<group>"; };
+		8AF9697F15148120009D4B3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8AF9698015148120009D4B3E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8AF9698115148120009D4B3E /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		8AF9698215148120009D4B3E /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		8AF9698315148120009D4B3E /* doug-mckenzie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "doug-mckenzie.jpeg"; sourceTree = "<group>"; };
+		8AF9698615148120009D4B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		8AF9698815148120009D4B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8AF9698915148120009D4B3E /* enrico-de-la-vega.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "enrico-de-la-vega.jpeg"; sourceTree = "<group>"; };
+		8AF9698A15148120009D4B3E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		8AF9698B15148120009D4B3E /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		8AF9698C15148120009D4B3E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8AF9698D15148120009D4B3E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		8AF9698E15148120009D4B3E /* jared-kopf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jared-kopf.jpeg"; sourceTree = "<group>"; };
+		8AF9698F15148120009D4B3E /* jim-steinmeyer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jim-steinmeyer.jpeg"; sourceTree = "<group>"; };
+		8AF9699015148120009D4B3E /* kevin-ho.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kevin-ho.jpeg"; sourceTree = "<group>"; };
+		8AF9699115148120009D4B3E /* lance-pierce.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lance-pierce.jpeg"; sourceTree = "<group>"; };
+		8AF9699215148120009D4B3E /* Magic-Con-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Magic-Con-Info.plist"; sourceTree = "<group>"; };
+		8AF9699315148120009D4B3E /* Magic-Con-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Magic-Con-Prefix.pch"; sourceTree = "<group>"; };
+		8AF9699415148120009D4B3E /* Magic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magic.png; sourceTree = "<group>"; };
+		8AF9699515148120009D4B3E /* Magic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Magic@2x.png"; sourceTree = "<group>"; };
+		8AF9699615148120009D4B3E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AF9699715148120009D4B3E /* michael-weber.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "michael-weber.jpeg"; sourceTree = "<group>"; };
+		8AF9699815148120009D4B3E /* piff-the-magic-dragon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "piff-the-magic-dragon.jpeg"; sourceTree = "<group>"; };
+		8AF9699915148120009D4B3E /* ricky-smith.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ricky-smith.jpeg"; sourceTree = "<group>"; };
+		8AF9699A15148120009D4B3E /* rob-zabrecky.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rob-zabrecky.jpeg"; sourceTree = "<group>"; };
+		8AF9699B15148120009D4B3E /* roberto-mansilla.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "roberto-mansilla.jpeg"; sourceTree = "<group>"; };
+		8AF9699C15148120009D4B3E /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
+		8AF9699D15148120009D4B3E /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
+		8AF9699E15148120009D4B3E /* Speaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
+		8AF9699F15148120009D4B3E /* Speaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speaker.m; sourceTree = "<group>"; };
+		8AF969A015148120009D4B3E /* SpeakersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakersTableViewController.h; sourceTree = "<group>"; };
+		8AF969A115148120009D4B3E /* SpeakersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersTableViewController.m; sourceTree = "<group>"; };
+		8AF969A215148120009D4B3E /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
+		8AF969A315148120009D4B3E /* Star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star@2x.png"; sourceTree = "<group>"; };
+		8AF969A415148120009D4B3E /* tony-chang.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tony-chang.jpeg"; sourceTree = "<group>"; };
+		8AF969A515148120009D4B3E /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		8AF969A615148120009D4B3E /* Twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter@2x.png"; sourceTree = "<group>"; };
+		8AF969A715148120009D4B3E /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User.png; sourceTree = "<group>"; };
+		8AF969A815148120009D4B3E /* User@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +133,23 @@
 		0B32FA61150BF1250073511B = {
 			isa = PBXGroup;
 			children = (
-				0B32FA76150BF1270073511B /* PhotoViewer */,
+				8AF969D61514813B009D4B3E /* Supporting Files */,
+				8AF9697315148120009D4B3E /* AppDelegate.h */,
+				8AF9697415148120009D4B3E /* AppDelegate.m */,
+				8AF9698115148120009D4B3E /* DisplayViewController.h */,
+				8AF9698215148120009D4B3E /* DisplayViewController.m */,
+				8AF9698415148120009D4B3E /* en.lproj */,
+				8AF9698A15148120009D4B3E /* Event.h */,
+				8AF9698B15148120009D4B3E /* Event.m */,
+				8AF9699215148120009D4B3E /* Magic-Con-Info.plist */,
+				8AF9699315148120009D4B3E /* Magic-Con-Prefix.pch */,
+				8AF9699615148120009D4B3E /* main.m */,
+				8AF9699C15148120009D4B3E /* ScheduleTableViewController.h */,
+				8AF9699D15148120009D4B3E /* ScheduleTableViewController.m */,
+				8AF9699E15148120009D4B3E /* Speaker.h */,
+				8AF9699F15148120009D4B3E /* Speaker.m */,
+				8AF969A015148120009D4B3E /* SpeakersTableViewController.h */,
+				8AF969A115148120009D4B3E /* SpeakersTableViewController.m */,
 				0B32FA6F150BF1270073511B /* Frameworks */,
 				0B32FA6D150BF1270073511B /* Products */,
 			);
@@ -59,7 +158,7 @@
 		0B32FA6D150BF1270073511B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B32FA6C150BF1270073511B /* PhotoViewer.app */,
+				0B32FA6C150BF1270073511B /* Magic-Con.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,36 +173,71 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0B32FA76150BF1270073511B /* PhotoViewer */ = {
+		8AF9698415148120009D4B3E /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				0B32FA7F150BF1270073511B /* AppDelegate.h */,
-				0B32FA80150BF1270073511B /* AppDelegate.m */,
-				0B32FA82150BF1270073511B /* MainStoryboard.storyboard */,
-				0B32FA85150BF1270073511B /* ViewController.h */,
-				0B32FA86150BF1270073511B /* ViewController.m */,
-				0B32FA77150BF1270073511B /* Supporting Files */,
+				8AF9698515148120009D4B3E /* InfoPlist.strings */,
+				8AF9698715148120009D4B3E /* MainStoryboard.storyboard */,
 			);
-			path = PhotoViewer;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
-		0B32FA77150BF1270073511B /* Supporting Files */ = {
+		8AF969D61514813B009D4B3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B32FA78150BF1270073511B /* PhotoViewer-Info.plist */,
-				0B32FA79150BF1270073511B /* InfoPlist.strings */,
-				0B32FA7C150BF1270073511B /* main.m */,
-				0B32FA7E150BF1270073511B /* PhotoViewer-Prefix.pch */,
+				8AF969D71514818A009D4B3E /* Images */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AF969D71514818A009D4B3E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8AF9697215148120009D4B3E /* adam-rubin.jpeg */,
+				8AF9697515148120009D4B3E /* brad-fulton.jpeg */,
+				8AF9697615148120009D4B3E /* chad-long.jpeg */,
+				8AF9697715148120009D4B3E /* chris-korn.jpeg */,
+				8AF9697B15148120009D4B3E /* dani-daortiz.jpeg */,
+				8AF9697C15148120009D4B3E /* daniel-garcia.jpeg */,
+				8AF9697D15148120009D4B3E /* david-acer.jpeg */,
+				8AF9697E15148120009D4B3E /* david-blaine.jpeg */,
+				8AF9698315148120009D4B3E /* doug-mckenzie.jpeg */,
+				8AF9698915148120009D4B3E /* enrico-de-la-vega.jpeg */,
+				8AF9698C15148120009D4B3E /* Icon.png */,
+				8AF9698E15148120009D4B3E /* jared-kopf.jpeg */,
+				8AF9698F15148120009D4B3E /* jim-steinmeyer.jpeg */,
+				8AF9699015148120009D4B3E /* kevin-ho.jpeg */,
+				8AF9699415148120009D4B3E /* Magic.png */,
+				8AF9699515148120009D4B3E /* Magic@2x.png */,
+				8AF9699715148120009D4B3E /* michael-weber.jpeg */,
+				8AF9699815148120009D4B3E /* piff-the-magic-dragon.jpeg */,
+				8AF9699915148120009D4B3E /* ricky-smith.jpeg */,
+				8AF9699A15148120009D4B3E /* rob-zabrecky.jpeg */,
+				8AF9699B15148120009D4B3E /* roberto-mansilla.jpeg */,
+				8AF969A215148120009D4B3E /* Star.png */,
+				8AF969A315148120009D4B3E /* Star@2x.png */,
+				8AF969A415148120009D4B3E /* tony-chang.jpeg */,
+				8AF969A515148120009D4B3E /* Twitter.png */,
+				8AF9699115148120009D4B3E /* lance-pierce.jpeg */,
+				8AF969A615148120009D4B3E /* Twitter@2x.png */,
+				8AF969A715148120009D4B3E /* User.png */,
+				8AF969A815148120009D4B3E /* User@2x.png */,
+				8AF9698D15148120009D4B3E /* Icon@2x.png */,
+				8AF9697F15148120009D4B3E /* Default.png */,
+				8AF9698015148120009D4B3E /* Default@2x.png */,
+				8AF9697815148120009D4B3E /* Clock.png */,
+				8AF9697915148120009D4B3E /* Clock@2x.png */,
+				8AF9697A15148120009D4B3E /* cyril-takayama.jpeg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B32FA6B150BF1270073511B /* PhotoViewer */ = {
+		0B32FA6B150BF1270073511B /* Magic-Con */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B32FA8A150BF1270073511B /* Build configuration list for PBXNativeTarget "PhotoViewer" */;
+			buildConfigurationList = 0B32FA8A150BF1270073511B /* Build configuration list for PBXNativeTarget "Magic-Con" */;
 			buildPhases = (
 				0B32FA68150BF1270073511B /* Sources */,
 				0B32FA69150BF1270073511B /* Frameworks */,
@@ -113,9 +247,9 @@
 			);
 			dependencies = (
 			);
-			name = PhotoViewer;
+			name = "Magic-Con";
 			productName = PhotoViewer;
-			productReference = 0B32FA6C150BF1270073511B /* PhotoViewer.app */;
+			productReference = 0B32FA6C150BF1270073511B /* Magic-Con.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,9 +258,9 @@
 		0B32FA63150BF1250073511B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 0B32FA66150BF1250073511B /* Build configuration list for PBXProject "PhotoViewer" */;
+			buildConfigurationList = 0B32FA66150BF1250073511B /* Build configuration list for PBXProject "Magic-Con" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -138,7 +272,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B32FA6B150BF1270073511B /* PhotoViewer */,
+				0B32FA6B150BF1270073511B /* Magic-Con */,
 			);
 		};
 /* End PBXProject section */
@@ -148,8 +282,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B32FA7B150BF1270073511B /* InfoPlist.strings in Resources */,
-				0B32FA84150BF1270073511B /* MainStoryboard.storyboard in Resources */,
+				8AF969A915148120009D4B3E /* adam-rubin.jpeg in Resources */,
+				8AF969AB15148120009D4B3E /* brad-fulton.jpeg in Resources */,
+				8AF969AC15148120009D4B3E /* chad-long.jpeg in Resources */,
+				8AF969AD15148120009D4B3E /* chris-korn.jpeg in Resources */,
+				8AF969AE15148120009D4B3E /* Clock.png in Resources */,
+				8AF969AF15148120009D4B3E /* Clock@2x.png in Resources */,
+				8AF969B015148120009D4B3E /* cyril-takayama.jpeg in Resources */,
+				8AF969B115148120009D4B3E /* dani-daortiz.jpeg in Resources */,
+				8AF969B215148120009D4B3E /* daniel-garcia.jpeg in Resources */,
+				8AF969B315148120009D4B3E /* david-acer.jpeg in Resources */,
+				8AF969B415148120009D4B3E /* david-blaine.jpeg in Resources */,
+				8AF969B515148120009D4B3E /* Default.png in Resources */,
+				8AF969B615148120009D4B3E /* Default@2x.png in Resources */,
+				8AF969B815148120009D4B3E /* doug-mckenzie.jpeg in Resources */,
+				8AF969B915148120009D4B3E /* InfoPlist.strings in Resources */,
+				8AF969BA15148120009D4B3E /* MainStoryboard.storyboard in Resources */,
+				8AF969BB15148120009D4B3E /* enrico-de-la-vega.jpeg in Resources */,
+				8AF969BD15148120009D4B3E /* Icon.png in Resources */,
+				8AF969BE15148120009D4B3E /* Icon@2x.png in Resources */,
+				8AF969BF15148120009D4B3E /* jared-kopf.jpeg in Resources */,
+				8AF969C015148120009D4B3E /* jim-steinmeyer.jpeg in Resources */,
+				8AF969C115148120009D4B3E /* kevin-ho.jpeg in Resources */,
+				8AF969C215148120009D4B3E /* lance-pierce.jpeg in Resources */,
+				8AF969C315148120009D4B3E /* Magic-Con-Info.plist in Resources */,
+				8AF969C415148120009D4B3E /* Magic.png in Resources */,
+				8AF969C515148120009D4B3E /* Magic@2x.png in Resources */,
+				8AF969C715148120009D4B3E /* michael-weber.jpeg in Resources */,
+				8AF969C815148120009D4B3E /* piff-the-magic-dragon.jpeg in Resources */,
+				8AF969C915148120009D4B3E /* ricky-smith.jpeg in Resources */,
+				8AF969CA15148120009D4B3E /* rob-zabrecky.jpeg in Resources */,
+				8AF969CB15148120009D4B3E /* roberto-mansilla.jpeg in Resources */,
+				8AF969CF15148120009D4B3E /* Star.png in Resources */,
+				8AF969D015148120009D4B3E /* Star@2x.png in Resources */,
+				8AF969D115148120009D4B3E /* tony-chang.jpeg in Resources */,
+				8AF969D215148120009D4B3E /* Twitter.png in Resources */,
+				8AF969D315148120009D4B3E /* Twitter@2x.png in Resources */,
+				8AF969D415148120009D4B3E /* User.png in Resources */,
+				8AF969D515148120009D4B3E /* User@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,27 +330,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B32FA7D150BF1270073511B /* main.m in Sources */,
-				0B32FA81150BF1270073511B /* AppDelegate.m in Sources */,
-				0B32FA87150BF1270073511B /* ViewController.m in Sources */,
+				8AF969AA15148120009D4B3E /* AppDelegate.m in Sources */,
+				8AF969B715148120009D4B3E /* DisplayViewController.m in Sources */,
+				8AF969BC15148120009D4B3E /* Event.m in Sources */,
+				8AF969C615148120009D4B3E /* main.m in Sources */,
+				8AF969CC15148120009D4B3E /* ScheduleTableViewController.m in Sources */,
+				8AF969CD15148120009D4B3E /* Speaker.m in Sources */,
+				8AF969CE15148120009D4B3E /* SpeakersTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0B32FA79150BF1270073511B /* InfoPlist.strings */ = {
+		8AF9698515148120009D4B3E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0B32FA7A150BF1270073511B /* en */,
+				8AF9698615148120009D4B3E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		0B32FA82150BF1270073511B /* MainStoryboard.storyboard */ = {
+		8AF9698715148120009D4B3E /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0B32FA83150BF1270073511B /* en */,
+				8AF9698815148120009D4B3E /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -194,7 +368,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bryce Craig (5J7T4432M3)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -209,6 +383,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F8F18F4A-EC78-46FE-A439-248E7C6422A5";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -219,7 +394,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bryce Craig (5J7T4432M3)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -228,6 +403,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F8F18F4A-EC78-46FE-A439-248E7C6422A5";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -237,9 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhotoViewer/PhotoViewer-Prefix.pch";
-				INFOPLIST_FILE = "PhotoViewer/PhotoViewer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Magic-Con-Prefix.pch";
+				INFOPLIST_FILE = "Magic-Con-Info.plist";
+				PRODUCT_NAME = "Magic-Con";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -248,9 +424,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhotoViewer/PhotoViewer-Prefix.pch";
-				INFOPLIST_FILE = "PhotoViewer/PhotoViewer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Magic-Con-Prefix.pch";
+				INFOPLIST_FILE = "Magic-Con-Info.plist";
+				PRODUCT_NAME = "Magic-Con";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -258,7 +434,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B32FA66150BF1250073511B /* Build configuration list for PBXProject "PhotoViewer" */ = {
+		0B32FA66150BF1250073511B /* Build configuration list for PBXProject "Magic-Con" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B32FA88150BF1270073511B /* Debug */,
@@ -267,13 +443,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B32FA8A150BF1270073511B /* Build configuration list for PBXNativeTarget "PhotoViewer" */ = {
+		0B32FA8A150BF1270073511B /* Build configuration list for PBXNativeTarget "Magic-Con" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B32FA8B150BF1270073511B /* Debug */,
 				0B32FA8C150BF1270073511B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

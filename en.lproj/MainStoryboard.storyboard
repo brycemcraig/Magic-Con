@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Zn9-zd-9F7">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
+    </dependencies>
+    <scenes>
+        <!--Speakers Table View Controller - Speakers-->
+        <scene sceneID="sY3-nK-tXB">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d7B-HR-pPm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="7se-ei-vea" customClass="SpeakersTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="NSZ-l3-Tcl">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SpeakerCell" id="aAO-Us-NBX">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="RH5-70-dwf" kind="push" identifier="ShowSpeaker" id="r5w-kj-ob8"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="7se-ei-vea" id="NMX-kI-UyS"/>
+                            <outlet property="delegate" destination="7se-ei-vea" id="Bbk-9l-AeE"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Speakers" id="MgR-kc-GKa"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="1076" y="45"/>
+        </scene>
+        <!--Display View Controller-->
+        <scene sceneID="BmT-jV-8VL">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GNT-RO-TwB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="RH5-70-dwf" customClass="DisplayViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uA3-3d-Tue">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="af9-Jt-o5V">
+                                <rect key="frame" x="12" y="20" width="296" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="h6V-1x-3u0">
+                                <rect key="frame" x="20" y="28" width="280" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="lhw-DY-Goi">
+                                <rect key="frame" x="20" y="168" width="280" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="I1x-2n-ccr"/>
+                    <connections>
+                        <outlet property="currentImage" destination="h6V-1x-3u0" id="uZF-ja-tkj"/>
+                        <outlet property="speakerNotes" destination="lhw-DY-Goi" id="IF3-l9-fYc"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1556" y="45"/>
+        </scene>
+        <!--Table View Controller - Schedule-->
+        <scene sceneID="v8I-ZL-PAn">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eKl-xg-vBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="1JF-FS-8fS" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="EBh-oT-G09">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ScheduleCell" rowHeight="60" id="KZk-OM-Dff">
+                                <rect key="frame" x="0.0" y="22" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="0.0" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1JF-FS-8fS" id="2VL-g3-z1X"/>
+                            <outlet property="delegate" destination="1JF-FS-8fS" id="Fqo-hC-TMa"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Schedule" image="Clock.png" id="fES-cP-6w8"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="563" y="-600"/>
+        </scene>
+        <!--Navigation Controller - Speakers-->
+        <scene sceneID="1lg-JY-tk6">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KqR-90-MZN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="0kU-VF-JrV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Speakers" image="User.png" id="Tq9-qR-YI1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="blackOpaque" id="fYz-c4-JNA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7se-ei-vea" kind="relationship" relationship="rootViewController" id="xKx-7L-8Lp"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="550" y="45"/>
+        </scene>
+        <!--View Controller - Twitter-->
+        <scene sceneID="XWH-gh-tNB">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rmJ-Lp-yN6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="UZM-nh-gDg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cq7-hr-p3t">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Twitter" image="Twitter.png" id="xJL-nl-EeD"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="558" y="631"/>
+        </scene>
+        <!--View Controller - Live-->
+        <scene sceneID="2pm-wL-FIn">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQc-Eb-5VT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Jw9-9B-Llt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="43h-5d-fLD">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Live" image="Magic.png" id="FCQ-QV-led"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="554" y="1285"/>
+        </scene>
+        <!--View Controller - About-->
+        <scene sceneID="zqW-b6-wGv">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F4A-zj-lCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="J3o-31-bPE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="49F-WB-qke">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" image="Star.png" id="dgI-76-jO3"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="542" y="1941"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="5gg-LG-zGq">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CQ4-ZC-aob" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController id="Zn9-zd-9F7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="4qn-5q-Olk">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1JF-FS-8fS" kind="relationship" relationship="viewControllers" id="VJ0-7Q-0eM"/>
+                        <segue destination="0kU-VF-JrV" kind="relationship" relationship="viewControllers" id="owc-UY-WWp"/>
+                        <segue destination="UZM-nh-gDg" kind="relationship" relationship="viewControllers" id="myP-Hp-K06"/>
+                        <segue destination="Jw9-9B-Llt" kind="relationship" relationship="viewControllers" id="iIb-fA-5Qf"/>
+                        <segue destination="J3o-31-bPE" kind="relationship" relationship="viewControllers" id="ogG-f6-oqT"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="-530" y="631"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Clock.png" width="40" height="40"/>
+        <image name="Magic.png" width="40" height="40"/>
+        <image name="Star.png" width="40" height="40"/>
+        <image name="Twitter.png" width="40" height="40"/>
+        <image name="User.png" width="40" height="40"/>
+    </resources>
+    <classes>
+        <class className="DisplayViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DisplayViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="currentImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="speakerNotes" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="SpeakersTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SpeakersTableViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

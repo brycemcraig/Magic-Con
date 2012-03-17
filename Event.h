@@ -10,4 +10,7 @@
 
 @interface Event : NSObject
 
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *time;
+
 @end
