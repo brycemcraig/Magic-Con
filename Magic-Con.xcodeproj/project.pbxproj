@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2AD82F15156595008883BC /* Schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AD82E15156595008883BC /* Schedule.plist */; };
 		0B32FA71150BF1270073511B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA70150BF1270073511B /* UIKit.framework */; };
 		0B32FA73150BF1270073511B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA72150BF1270073511B /* Foundation.framework */; };
 		0B32FA75150BF1270073511B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA74150BF1270073511B /* CoreGraphics.framework */; };
@@ -29,14 +30,12 @@
 		8AF969B915148120009D4B3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698515148120009D4B3E /* InfoPlist.strings */; };
 		8AF969BA15148120009D4B3E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698715148120009D4B3E /* MainStoryboard.storyboard */; };
 		8AF969BB15148120009D4B3E /* enrico-de-la-vega.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698915148120009D4B3E /* enrico-de-la-vega.jpeg */; };
-		8AF969BC15148120009D4B3E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9698B15148120009D4B3E /* Event.m */; };
 		8AF969BD15148120009D4B3E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698C15148120009D4B3E /* Icon.png */; };
 		8AF969BE15148120009D4B3E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698D15148120009D4B3E /* Icon@2x.png */; };
 		8AF969BF15148120009D4B3E /* jared-kopf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698E15148120009D4B3E /* jared-kopf.jpeg */; };
 		8AF969C015148120009D4B3E /* jim-steinmeyer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9698F15148120009D4B3E /* jim-steinmeyer.jpeg */; };
 		8AF969C115148120009D4B3E /* kevin-ho.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699015148120009D4B3E /* kevin-ho.jpeg */; };
 		8AF969C215148120009D4B3E /* lance-pierce.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699115148120009D4B3E /* lance-pierce.jpeg */; };
-		8AF969C315148120009D4B3E /* Magic-Con-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699215148120009D4B3E /* Magic-Con-Info.plist */; };
 		8AF969C415148120009D4B3E /* Magic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699415148120009D4B3E /* Magic.png */; };
 		8AF969C515148120009D4B3E /* Magic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9699515148120009D4B3E /* Magic@2x.png */; };
 		8AF969C615148120009D4B3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9699615148120009D4B3E /* main.m */; };
@@ -58,6 +57,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B2AD82E15156595008883BC /* Schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Schedule.plist; sourceTree = "<group>"; };
 		0B32FA6C150BF1270073511B /* Magic-Con.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic-Con.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B32FA70150BF1270073511B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B32FA72150BF1270073511B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,8 +83,6 @@
 		8AF9698615148120009D4B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		8AF9698815148120009D4B3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8AF9698915148120009D4B3E /* enrico-de-la-vega.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "enrico-de-la-vega.jpeg"; sourceTree = "<group>"; };
-		8AF9698A15148120009D4B3E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
-		8AF9698B15148120009D4B3E /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		8AF9698C15148120009D4B3E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		8AF9698D15148120009D4B3E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		8AF9698E15148120009D4B3E /* jared-kopf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jared-kopf.jpeg"; sourceTree = "<group>"; };
@@ -133,14 +131,13 @@
 		0B32FA61150BF1250073511B = {
 			isa = PBXGroup;
 			children = (
+				0B2AD82E15156595008883BC /* Schedule.plist */,
 				8AF969D61514813B009D4B3E /* Supporting Files */,
 				8AF9697315148120009D4B3E /* AppDelegate.h */,
 				8AF9697415148120009D4B3E /* AppDelegate.m */,
 				8AF9698115148120009D4B3E /* DisplayViewController.h */,
 				8AF9698215148120009D4B3E /* DisplayViewController.m */,
 				8AF9698415148120009D4B3E /* en.lproj */,
-				8AF9698A15148120009D4B3E /* Event.h */,
-				8AF9698B15148120009D4B3E /* Event.m */,
 				8AF9699215148120009D4B3E /* Magic-Con-Info.plist */,
 				8AF9699315148120009D4B3E /* Magic-Con-Prefix.pch */,
 				8AF9699615148120009D4B3E /* main.m */,
@@ -305,7 +302,6 @@
 				8AF969C015148120009D4B3E /* jim-steinmeyer.jpeg in Resources */,
 				8AF969C115148120009D4B3E /* kevin-ho.jpeg in Resources */,
 				8AF969C215148120009D4B3E /* lance-pierce.jpeg in Resources */,
-				8AF969C315148120009D4B3E /* Magic-Con-Info.plist in Resources */,
 				8AF969C415148120009D4B3E /* Magic.png in Resources */,
 				8AF969C515148120009D4B3E /* Magic@2x.png in Resources */,
 				8AF969C715148120009D4B3E /* michael-weber.jpeg in Resources */,
@@ -320,6 +316,7 @@
 				8AF969D315148120009D4B3E /* Twitter@2x.png in Resources */,
 				8AF969D415148120009D4B3E /* User.png in Resources */,
 				8AF969D515148120009D4B3E /* User@2x.png in Resources */,
+				0B2AD82F15156595008883BC /* Schedule.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +329,6 @@
 			files = (
 				8AF969AA15148120009D4B3E /* AppDelegate.m in Sources */,
 				8AF969B715148120009D4B3E /* DisplayViewController.m in Sources */,
-				8AF969BC15148120009D4B3E /* Event.m in Sources */,
 				8AF969C615148120009D4B3E /* main.m in Sources */,
 				8AF969CC15148120009D4B3E /* ScheduleTableViewController.m in Sources */,
 				8AF969CD15148120009D4B3E /* Speaker.m in Sources */,

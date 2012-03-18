@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Event.h"
 
-@interface ScheduleTableViewController : UITableViewController
+@interface ScheduleTableViewController : UITableViewController {
+
+    NSMutableArray *thursdayScheduleArray;
+    NSMutableArray *fridayScheduleArray;
+    NSMutableArray *saturdayScheduleArray;
+    NSMutableArray *sundayScheduleArray;
+    
+}
+
+@property (retain, atomic) NSMutableArray *thursdayScheduleArray;
+@property (retain, atomic) NSMutableArray *fridayScheduleArray;
+@property (retain, atomic) NSMutableArray *saturdayScheduleArray;
+@property (retain, atomic) NSMutableArray *sundayScheduleArray;
 
 @end

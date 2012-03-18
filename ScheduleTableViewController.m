@@ -14,7 +14,12 @@
 
 @implementation ScheduleTableViewController
 
-NSMutableArray *scheduleArray;
+@synthesize thursdayScheduleArray = _thursdayScheduleArray;
+@synthesize fridayScheduleArray = _fridayScheduleArray;
+@synthesize saturdayScheduleArray = _saturdayScheduleArray;
+@synthesize sundayScheduleArray = _sundayScheduleArray;
+
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -29,53 +34,36 @@ NSMutableArray *scheduleArray;
 {
     [super viewDidLoad];
     
+    _thursdayScheduleArray = [NSMutableArray array];
+    _fridayScheduleArray = [NSMutableArray array];
+    _saturdayScheduleArray = [NSMutableArray array];
+    _sundayScheduleArray = [NSMutableArray array];
     
-    scheduleArray = [[NSMutableArray alloc] init];
     
-    Event *event = [[Event alloc] init];
-    [event setName:@"test1"];
-    [event setTime:@"10am"];
-    [scheduleArray addObject:event];
     
-    event = [[Event alloc] init];
-    [event setName:@"test2"];
-    [event setTime:@"12pm"];
-    [scheduleArray addObject:event];
+    //Add Events
     
-    event = [[Event alloc] init];
-    [event setName:@"test3"];
-    [event setTime:@"2pm"];
-    [scheduleArray addObject:event];
+    [_thursdayScheduleArray addObject:@"Welcome Party - 7pm"];
     
-    event = [[Event alloc] init];
-    [event setName:@""];
-    [event setTime:@""];
-    [scheduleArray addObject:event];
+    [_fridayScheduleArray addObject:@"Event 1 - 10am"];
+    [_fridayScheduleArray addObject:@"Event 2 - 11am"];
+    [_fridayScheduleArray addObject:@"Lunch - 12pm"];
+    [_fridayScheduleArray addObject:@"Event 3 - 2pm"];
+    [_fridayScheduleArray addObject:@"Event 4 - 3pm"];
     
-    event = [[Event alloc] init];
-    [event setName:@""];
-    [event setTime:@""];
-    [scheduleArray addObject:event];
+    [_saturdayScheduleArray addObject:@"Event 1 - 10am"];
+    [_saturdayScheduleArray addObject:@"Event 2 - 11am"];
+    [_saturdayScheduleArray addObject:@"Lunch - 12pm"];
+    [_saturdayScheduleArray addObject:@"Event 3 - 2pm"];
+    [_saturdayScheduleArray addObject:@"Event 4 - 3pm"];
     
-    event = [[Event alloc] init];
-    [event setName:@""];
-    [event setTime:@""];
-    [scheduleArray addObject:event];
+    [_sundayScheduleArray addObject:@"Event 1 - 10am"];
+    [_sundayScheduleArray addObject:@"Event 2 - 11am"];
+    [_sundayScheduleArray addObject:@"Lunch - 12pm"];
+    [_sundayScheduleArray addObject:@"Event 3 - 2pm"];
+    [_sundayScheduleArray addObject:@"Event 4 - 3pm"];
     
-    event = [[Event alloc] init];
-    [event setName:@""];
-    [event setTime:@""];
-    [scheduleArray addObject:event];
     
-    event = [[Event alloc] init];
-    [event setName:@""];
-    [event setTime:@""];
-    [scheduleArray addObject:event];
-    
-    event = [[Event alloc] init];
-    [event setName:@""];
-    [event setTime:@""];
-    [scheduleArray addObject:event];
     
     
     
@@ -110,7 +98,46 @@ NSMutableArray *scheduleArray;
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [scheduleArray count];
+    
+    switch (section) {
+        case 0:
+            return [_thursdayScheduleArray count];
+            break;
+        case 1:
+            return [_fridayScheduleArray count];
+            break;
+        case 2:
+            return [_saturdayScheduleArray count];
+            break;
+        case 3:
+            return [_sundayScheduleArray count];
+            break;
+        default:
+            break;
+    }
+    
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+
+    switch (section) {
+        case 0:
+            return @"Thursday";
+            break;
+        case 1:
+            return @"Friday";
+            break;
+        case 2:
+            return @"Saturday";
+            break;
+        case 3:
+            return @"Sunday";
+            break;
+
+        default:
+            break;
+    }
+
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -118,10 +145,29 @@ NSMutableArray *scheduleArray;
     static NSString *CellIdentifier = @"ScheduleCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-    Event *current = [scheduleArray objectAtIndex:indexPath.row];
-    [cell.textLabel setText:[current time]];
-    
     // Configure the cell...
+
+    
+    switch (indexPath.section) {
+        case 0:
+            cell.textLabel.text = [_thursdayScheduleArray objectAtIndex:indexPath.row];
+            break;
+        case 1:
+            cell.textLabel.text = [_fridayScheduleArray objectAtIndex:indexPath.row];
+            break;
+        case 2:
+            cell.textLabel.text = [_saturdayScheduleArray objectAtIndex:indexPath.row];
+            break;
+        case 3:
+            cell.textLabel.text = [_sundayScheduleArray objectAtIndex:indexPath.row];
+            break;
+            
+        default:
+            break;
+    }
+    
+    
+
     
     return cell;
 }
