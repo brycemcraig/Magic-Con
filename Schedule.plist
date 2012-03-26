@@ -2,17 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>New item</key>
+	<key>schedule</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Thursday</string>
+			<string>Thursday - April 12</string>
+			<key>Events</key>
+			<array>
+				<string>Section 1 Item 1</string>
+				<string>Section 1 Item 2</string>
+			</array>
 		</dict>
-		<dict/>
-		<dict/>
 		<dict>
-			<key>New item</key>
-			<string></string>
+			<key>Title</key>
+			<string>Friday - April 13</string>
+			<key>Events</key>
+			<array>
+				<string>Section 1 Item 1</string>
+				<string>Section 1 Item 2</string>
+				<string>Section 1 Item 3</string>
+				<string>Section 1 Item 4</string>
+				<string>Section 1 Item 5</string>
+				<string>Section 1 Item 6</string>
+			</array>
 		</dict>
 	</array>
 </dict>

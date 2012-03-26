@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B2AD82F15156595008883BC /* Schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B2AD82E15156595008883BC /* Schedule.plist */; };
 		0B32FA71150BF1270073511B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA70150BF1270073511B /* UIKit.framework */; };
 		0B32FA73150BF1270073511B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA72150BF1270073511B /* Foundation.framework */; };
 		0B32FA75150BF1270073511B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA74150BF1270073511B /* CoreGraphics.framework */; };
+		8AD32391152063760087A367 /* schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AD32390152063760087A367 /* schedule.plist */; };
 		8AF969A915148120009D4B3E /* adam-rubin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697215148120009D4B3E /* adam-rubin.jpeg */; };
 		8AF969AA15148120009D4B3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9697415148120009D4B3E /* AppDelegate.m */; };
 		8AF969AB15148120009D4B3E /* brad-fulton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697515148120009D4B3E /* brad-fulton.jpeg */; };
@@ -57,11 +57,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B2AD82E15156595008883BC /* Schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Schedule.plist; sourceTree = "<group>"; };
 		0B32FA6C150BF1270073511B /* Magic-Con.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic-Con.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B32FA70150BF1270073511B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B32FA72150BF1270073511B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0B32FA74150BF1270073511B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AD32390152063760087A367 /* schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = schedule.plist; sourceTree = "<group>"; };
 		8AF9697215148120009D4B3E /* adam-rubin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adam-rubin.jpeg"; sourceTree = "<group>"; };
 		8AF9697315148120009D4B3E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AF9697415148120009D4B3E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -131,16 +131,16 @@
 		0B32FA61150BF1250073511B = {
 			isa = PBXGroup;
 			children = (
-				0B2AD82E15156595008883BC /* Schedule.plist */,
 				8AF969D61514813B009D4B3E /* Supporting Files */,
 				8AF9697315148120009D4B3E /* AppDelegate.h */,
 				8AF9697415148120009D4B3E /* AppDelegate.m */,
 				8AF9698115148120009D4B3E /* DisplayViewController.h */,
+				8AF9698715148120009D4B3E /* MainStoryboard.storyboard */,
 				8AF9698215148120009D4B3E /* DisplayViewController.m */,
-				8AF9698415148120009D4B3E /* en.lproj */,
 				8AF9699215148120009D4B3E /* Magic-Con-Info.plist */,
 				8AF9699315148120009D4B3E /* Magic-Con-Prefix.pch */,
 				8AF9699615148120009D4B3E /* main.m */,
+				8AF9698515148120009D4B3E /* InfoPlist.strings */,
 				8AF9699C15148120009D4B3E /* ScheduleTableViewController.h */,
 				8AF9699D15148120009D4B3E /* ScheduleTableViewController.m */,
 				8AF9699E15148120009D4B3E /* Speaker.h */,
@@ -170,18 +170,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8AF9698415148120009D4B3E /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				8AF9698515148120009D4B3E /* InfoPlist.strings */,
-				8AF9698715148120009D4B3E /* MainStoryboard.storyboard */,
-			);
-			path = en.lproj;
-			sourceTree = "<group>";
-		};
 		8AF969D61514813B009D4B3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8AD32390152063760087A367 /* schedule.plist */,
 				8AF969D71514818A009D4B3E /* Images */,
 			);
 			name = "Supporting Files";
@@ -316,7 +308,7 @@
 				8AF969D315148120009D4B3E /* Twitter@2x.png in Resources */,
 				8AF969D415148120009D4B3E /* User.png in Resources */,
 				8AF969D515148120009D4B3E /* User@2x.png in Resources */,
-				0B2AD82F15156595008883BC /* Schedule.plist in Resources */,
+				8AD32391152063760087A367 /* schedule.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +337,7 @@
 				8AF9698615148120009D4B3E /* en */,
 			);
 			name = InfoPlist.strings;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 		8AF9698715148120009D4B3E /* MainStoryboard.storyboard */ = {
@@ -353,6 +346,7 @@
 				8AF9698815148120009D4B3E /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
