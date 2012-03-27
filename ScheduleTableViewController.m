@@ -38,7 +38,7 @@
    
     self.tableData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"schedule" ofType:@"plist"]];
     
-    NSLog(@"THE ARRAY = %@", tableData);
+    NSLog(@"THE ARRAY = %@", self.tableData);
 
     
 
@@ -93,8 +93,8 @@
     // Configure the cell...
 
     
-    cell.textLabel.text = [[[tableData objectAtIndex: indexPath.section] objectForKey:@"Events"] objectAtIndex:indexPath.row];
-
+    cell.textLabel.text = [[[[tableData objectAtIndex: indexPath.section] objectForKey:@"Events"] objectAtIndex:indexPath.row] objectForKey:@"name"];
+    cell.detailTextLabel.text = [[[[tableData objectAtIndex: indexPath.section] objectForKey:@"Events"] objectAtIndex:indexPath.row] objectForKey:@"time"];
     
     return cell;
 }

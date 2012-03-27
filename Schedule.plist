@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>schedule</key>
-	<array>
-		<dict>
-			<key>Title</key>
-			<string>Thursday - April 12</string>
-			<key>Events</key>
-			<array>
-				<string>Section 1 Item 1</string>
-				<string>Section 1 Item 2</string>
-			</array>
-		</dict>
-		<dict>
-			<key>Title</key>
-			<string>Friday - April 13</string>
-			<key>Events</key>
-			<array>
-				<string>Section 1 Item 1</string>
-				<string>Section 1 Item 2</string>
-				<string>Section 1 Item 3</string>
-				<string>Section 1 Item 4</string>
-				<string>Section 1 Item 5</string>
-				<string>Section 1 Item 6</string>
-			</array>
-		</dict>
-	</array>
-</dict>
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Thursday - April 12</string>
+		<key>Events</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Event 1</string>
+				<key>time</key>
+				<string>7pm</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Friday- April 13</string>
+		<key>Events</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Event 1</string>
+				<key>time</key>
+				<string>7pm</string>
+			</dict>
+		</array>
+	</dict>
+</array>
 </plist>
