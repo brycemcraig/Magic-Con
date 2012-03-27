@@ -91,6 +91,13 @@ NSMutableArray *speakersArray;
     [speakersArray addObject:speaker];
     
     speaker = [[Speaker alloc] init];
+    [speaker setName:@"Mahdi Gilbert"];
+    [speaker setFilename:@"Mahdi-gilbert.jpeg"];
+    [speaker setNotes:@"Mahdi Gilbert was forced to reinvent magic for himself, literally redefining how a deck of cards can be handled. A rare gentleman and scoundrel who palms without palms, shuffles without fingers and is living proof that nothing is impossible."];
+    [speakersArray addObject:speaker];
+    
+    
+    speaker = [[Speaker alloc] init];
     [speaker setName:@"Kevin Ho"];
     [speaker setFilename:@"kevin-ho.jpeg"];
     [speaker setNotes:@"Kevin Ho is a Singapore-based magician, card flourisher, and co-founder of Virtuoso, a elite group of flourishers who have taken the art to new heights, both technically, and stylistically. Born in Hartford, Connecticut to both Chinese and Vietnamese parents, Kevin tends to answer the question 'So, where are you from?' by sighing, 'Well… it’s a long story.' In 2008, his second booklet on magic, Smooth Operations, was produced and released in collaboration with Dan and Dave Buck of Dan and Dave Buck fame. Currently, he is in the final stages of pre-production for a new, long-awaited project from The Virts, which will finally be making its debut in late 2011. His other interests include filmmaking, creative writing, and incessant daydreaming."];
@@ -147,7 +154,7 @@ NSMutableArray *speakersArray;
     speaker = [[Speaker alloc] init];
     [speaker setName:@"Ricky Smith"];
     [speaker setFilename:@"ricky-smith.jpeg"];
-    [speaker setNotes:@"Ricky Smith is considered one of humanity’s greatest individuals, if only 100% for his founding of the Buck Twins. The rest of his greatness can be attributed to his position asStudent in Residence at the distinctive Conjuring Arts Research Center. Previously he worked for H & R Magic Books which he says was “awesome”, and he likes difficult sleight of hand that is elegant in construction. His founding of the Buck Twins consisted of teaching Dan and Dave a couple of tricks when they were first getting started and for otherwise giving them an excellent example of what not to do."];
+    [speaker setNotes:@"Ricky Smith is considered one of humanity’s greatest individuals, if only 100% for his founding of the Buck Twins. The rest of his greatness can be attributed to his position as Student in Residence at the distinctive Conjuring Arts Research Center. Previously he worked for H & R Magic Books which he says was “awesome”, and he likes difficult sleight of hand that is elegant in construction. His founding of the Buck Twins consisted of teaching Dan and Dave a couple of tricks when they were first getting started and for otherwise giving them an excellent example of what not to do."];
     [speakersArray addObject:speaker];
     
     speaker = [[Speaker alloc] init];
@@ -172,6 +179,12 @@ NSMutableArray *speakersArray;
     [speaker setName:@"Michael Weber"];
     [speaker setFilename:@"michael-weber.jpeg"];
     [speaker setNotes:@"Michael Weber is one of the most influential thinkers in the magical arts today. He’s an accomplished magician, mentalist, speaker for Fortune 500s, and a film/television consultant with business partner and long time friend, Ricky Jay."];
+    [speakersArray addObject:speaker];
+    
+    speaker = [[Speaker alloc] init];
+    [speaker setName:@"Paul Wilson"];
+    [speaker setFilename:@"paul-wilson.jpeg"];
+    [speaker setNotes:@"Paul Wilson is a world-renowned expert on cons, scams, and cheating methods. He is the star of the hit BBC show The Real Hustle, with ‘partners in crime’ Alexis Conran and Jessica Jane Clement."];
     [speakersArray addObject:speaker];
     
     speaker = [[Speaker alloc] init];

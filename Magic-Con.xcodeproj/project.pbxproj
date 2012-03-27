@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2E471A15226BF9003A3B19 /* mahdi-gilbert.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E471915226BF9003A3B19 /* mahdi-gilbert.jpeg */; };
+		0B2E471C15226C62003A3B19 /* paul-wilson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E471B15226C62003A3B19 /* paul-wilson.jpeg */; };
 		0B32FA71150BF1270073511B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA70150BF1270073511B /* UIKit.framework */; };
 		0B32FA73150BF1270073511B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA72150BF1270073511B /* Foundation.framework */; };
 		0B32FA75150BF1270073511B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA74150BF1270073511B /* CoreGraphics.framework */; };
@@ -57,6 +59,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B2E471915226BF9003A3B19 /* mahdi-gilbert.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mahdi-gilbert.jpeg"; sourceTree = "<group>"; };
+		0B2E471B15226C62003A3B19 /* paul-wilson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "paul-wilson.jpeg"; sourceTree = "<group>"; };
 		0B32FA6C150BF1270073511B /* Magic-Con.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic-Con.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B32FA70150BF1270073511B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B32FA72150BF1270073511B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -193,6 +197,7 @@
 				8AF9698315148120009D4B3E /* doug-mckenzie.jpeg */,
 				8AF9698915148120009D4B3E /* enrico-de-la-vega.jpeg */,
 				8AF9698C15148120009D4B3E /* Icon.png */,
+				0B2E471915226BF9003A3B19 /* mahdi-gilbert.jpeg */,
 				8AF9698E15148120009D4B3E /* jared-kopf.jpeg */,
 				8AF9698F15148120009D4B3E /* jim-steinmeyer.jpeg */,
 				8AF9699015148120009D4B3E /* kevin-ho.jpeg */,
@@ -201,6 +206,7 @@
 				8AF9699715148120009D4B3E /* michael-weber.jpeg */,
 				8AF9699815148120009D4B3E /* piff-the-magic-dragon.jpeg */,
 				8AF9699915148120009D4B3E /* ricky-smith.jpeg */,
+				0B2E471B15226C62003A3B19 /* paul-wilson.jpeg */,
 				8AF9699A15148120009D4B3E /* rob-zabrecky.jpeg */,
 				8AF9699B15148120009D4B3E /* roberto-mansilla.jpeg */,
 				8AF969A215148120009D4B3E /* Star.png */,
@@ -309,6 +315,8 @@
 				8AF969D415148120009D4B3E /* User.png in Resources */,
 				8AF969D515148120009D4B3E /* User@2x.png in Resources */,
 				8AD32391152063760087A367 /* schedule.plist in Resources */,
+				0B2E471A15226BF9003A3B19 /* mahdi-gilbert.jpeg in Resources */,
+				0B2E471C15226C62003A3B19 /* paul-wilson.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +366,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bryce Craig (5J7T4432M3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bryce Craig (5J7T4432M3)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -373,7 +382,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F8F18F4A-EC78-46FE-A439-248E7C6422A5";
+				PROVISIONING_PROFILE = "98EEE8E2-BA44-4E41-8C66-F5C7D40777E6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "98EEE8E2-BA44-4E41-8C66-F5C7D40777E6";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -384,6 +394,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bryce Craig (5J7T4432M3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bryce Craig (5J7T4432M3)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -393,7 +404,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F8F18F4A-EC78-46FE-A439-248E7C6422A5";
+				PROVISIONING_PROFILE = "98EEE8E2-BA44-4E41-8C66-F5C7D40777E6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "98EEE8E2-BA44-4E41-8C66-F5C7D40777E6";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
