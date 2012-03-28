@@ -13,5 +13,6 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *filename;
 @property (nonatomic, strong) NSString *notes;
+@property (nonatomic, strong) NSString *icon;
 
 @end

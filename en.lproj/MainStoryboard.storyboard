@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Zn9-zd-9F7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Zn9-zd-9F7">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
@@ -16,20 +16,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SpeakerCell" textLabel="O0f-rk-Apt" style="IBUITableViewCellStyleDefault" id="aAO-Us-NBX">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SpeakerCell" textLabel="O0f-rk-Apt" imageView="pbC-mA-znO" style="IBUITableViewCellStyleDefault" id="aAO-Us-NBX">
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O0f-rk-Apt">
-                                            <rect key="frame" x="10" y="0.0" width="280" height="43"/>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" id="O0f-rk-Apt">
+                                            <rect key="frame" x="53" y="0.0" width="237" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="20"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.24312329014617717" green="0.15303954852314344" blue="0.49653220663265307" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="acer_sm.png" id="pbC-mA-znO">
+                                            <rect key="frame" x="0.0" y="0.0" width="43" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
@@ -109,7 +113,7 @@
                                             <rect key="frame" x="59" y="10" width="34" height="22"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="18"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.2431232901" green="0.15303954850000001" blue="0.49653220660000003" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Star.png" id="jGj-Ve-efW">
@@ -138,14 +142,14 @@
                     <navigationItem key="navigationItem" title="Schedule" id="VmX-Gs-nKg"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="1089" y="-600"/>
+            <point key="canvasLocation" x="1615" y="-600"/>
         </scene>
         <!--Navigation Controller - Speakers-->
         <scene sceneID="1lg-JY-tk6">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KqR-90-MZN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="0kU-VF-JrV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Speakers" image="User.png" id="Tq9-qR-YI1"/>
+                    <tabBarItem key="tabBarItem" title="Speakers" image="Users.png" id="Tq9-qR-YI1"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="blackOpaque" id="fYz-c4-JNA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -270,16 +274,32 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="563" y="-600"/>
+            <point key="canvasLocation" x="1089" y="-600"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Clock.png" width="40" height="40"/>
-        <image name="Magic.png" width="40" height="40"/>
-        <image name="Star.png" width="40" height="40"/>
-        <image name="Twitter.png" width="40" height="40"/>
-        <image name="User.png" width="40" height="40"/>
+        <image name="Clock.png" width="30" height="30"/>
+        <image name="Magic.png" width="24" height="30"/>
+        <image name="Star.png" width="30" height="29"/>
+        <image name="Twitter.png" width="30" height="25"/>
+        <image name="Users.png" width="30" height="22"/>
+        <image name="acer_sm.png" width="124" height="124"/>
     </resources>
+    <classes>
+        <class className="DisplayViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DisplayViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="currentImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="speakerNotes" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="ScheduleTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScheduleTableViewController.h"/>
+        </class>
+        <class className="SpeakersTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SpeakersTableViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

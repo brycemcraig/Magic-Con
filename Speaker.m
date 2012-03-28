@@ -13,6 +13,7 @@
 @synthesize name;
 @synthesize filename;
 @synthesize notes;
+@synthesize icon;
 
 
 @end

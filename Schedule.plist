@@ -9,7 +9,7 @@
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Event 1</string>
+				<string>Welcome Party</string>
 				<key>time</key>
 				<string>7pm</string>
 			</dict>
@@ -22,13 +22,13 @@
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Event 1</string>
+				<string>Chad Long</string>
 				<key>time</key>
 				<string>10am</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Event 2</string>
+				<string>Dani DaOrtiz</string>
 				<key>time</key>
 				<string>11am</string>
 			</dict>
@@ -40,25 +40,25 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Event 3</string>
+				<string>Kevin Ho</string>
 				<key>time</key>
 				<string>2pm</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Event 4</string>
+				<string>Brad Fulton</string>
 				<key>time</key>
 				<string>4pm</string>
 			</dict>
-            <dict>
+			<dict>
 				<key>name</key>
 				<string>Dinner</string>
 				<key>time</key>
 				<string>6pm</string>
 			</dict>
-            <dict>
+			<dict>
 				<key>name</key>
-				<string>Event 5</string>
+				<string>Evening Show</string>
 				<key>time</key>
 				<string>8pm</string>
 			</dict>
@@ -69,15 +69,15 @@
 		<string>Saturday - April 14</string>
 		<key>Events</key>
 		<array>
-            <dict>
+			<dict>
 				<key>name</key>
-				<string>Event 1</string>
+				<string>Daniel Garcia</string>
 				<key>time</key>
 				<string>10am</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Event 2</string>
+				<string>Jared Kopf</string>
 				<key>time</key>
 				<string>11am</string>
 			</dict>
@@ -89,25 +89,25 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Event 3</string>
+				<string>Mahdi Gilbert</string>
 				<key>time</key>
 				<string>2pm</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Event 4</string>
+				<string>Chris Korn</string>
 				<key>time</key>
 				<string>4pm</string>
 			</dict>
-            <dict>
+			<dict>
 				<key>name</key>
 				<string>Dinner</string>
 				<key>time</key>
 				<string>6pm</string>
 			</dict>
-            <dict>
+			<dict>
 				<key>name</key>
-				<string>Event 5</string>
+				<string>Evening Show</string>
 				<key>time</key>
 				<string>8pm</string>
 			</dict>
@@ -118,7 +118,7 @@
 		<string>Sunday - April 15</string>
 		<key>Events</key>
 		<array>
-            <dict>
+			<dict>
 				<key>name</key>
 				<string>Event 1</string>
 				<key>time</key>
@@ -148,13 +148,13 @@
 				<key>time</key>
 				<string>4pm</string>
 			</dict>
-            <dict>
+			<dict>
 				<key>name</key>
 				<string>Dinner</string>
 				<key>time</key>
 				<string>6pm</string>
 			</dict>
-            <dict>
+			<dict>
 				<key>name</key>
 				<string>Event 5</string>
 				<key>time</key>

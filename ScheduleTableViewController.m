@@ -38,7 +38,6 @@
    
     self.tableData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"schedule" ofType:@"plist"]];
     
-    NSLog(@"THE ARRAY = %@", self.tableData);
 
     
 
