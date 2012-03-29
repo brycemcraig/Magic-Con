@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B2E471A15226BF9003A3B19 /* mahdi-gilbert.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E471915226BF9003A3B19 /* mahdi-gilbert.jpeg */; };
 		0B2E471C15226C62003A3B19 /* paul-wilson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E471B15226C62003A3B19 /* paul-wilson.jpeg */; };
+		0B2E472B15241725003A3B19 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E472A15241725003A3B19 /* TwitterViewController.m */; };
 		0B32FA71150BF1270073511B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA70150BF1270073511B /* UIKit.framework */; };
 		0B32FA73150BF1270073511B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA72150BF1270073511B /* Foundation.framework */; };
 		0B32FA75150BF1270073511B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32FA74150BF1270073511B /* CoreGraphics.framework */; };
@@ -88,6 +89,8 @@
 /* Begin PBXFileReference section */
 		0B2E471915226BF9003A3B19 /* mahdi-gilbert.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mahdi-gilbert.jpeg"; sourceTree = "<group>"; };
 		0B2E471B15226C62003A3B19 /* paul-wilson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "paul-wilson.jpeg"; sourceTree = "<group>"; };
+		0B2E472915241725003A3B19 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		0B2E472A15241725003A3B19 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 		0B32FA6C150BF1270073511B /* Magic-Con.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic-Con.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B32FA70150BF1270073511B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B32FA72150BF1270073511B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -205,6 +208,8 @@
 				8AF9699F15148120009D4B3E /* Speaker.m */,
 				8AF969A015148120009D4B3E /* SpeakersTableViewController.h */,
 				8AF969A115148120009D4B3E /* SpeakersTableViewController.m */,
+				0B2E472915241725003A3B19 /* TwitterViewController.h */,
+				0B2E472A15241725003A3B19 /* TwitterViewController.m */,
 				0B32FA6F150BF1270073511B /* Frameworks */,
 				0B32FA6D150BF1270073511B /* Products */,
 			);
@@ -457,6 +462,7 @@
 				8AF969CC15148120009D4B3E /* ScheduleTableViewController.m in Sources */,
 				8AF969CD15148120009D4B3E /* Speaker.m in Sources */,
 				8AF969CE15148120009D4B3E /* SpeakersTableViewController.m in Sources */,
+				0B2E472B15241725003A3B19 /* TwitterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +549,7 @@
 				GCC_PREFIX_HEADER = "Magic-Con-Prefix.pch";
 				INFOPLIST_FILE = "Magic-Con-Info.plist";
 				PRODUCT_NAME = "Magic-Con";
-				PROVISIONING_PROFILE = "779AEAD0-2A8A-46C4-9B20-49C07A13F3E3";
+				PROVISIONING_PROFILE = "98EEE8E2-BA44-4E41-8C66-F5C7D40777E6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -556,7 +562,7 @@
 				GCC_PREFIX_HEADER = "Magic-Con-Prefix.pch";
 				INFOPLIST_FILE = "Magic-Con-Info.plist";
 				PRODUCT_NAME = "Magic-Con";
-				PROVISIONING_PROFILE = "779AEAD0-2A8A-46C4-9B20-49C07A13F3E3";
+				PROVISIONING_PROFILE = "98EEE8E2-BA44-4E41-8C66-F5C7D40777E6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

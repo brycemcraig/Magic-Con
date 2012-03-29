@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Zn9-zd-9F7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Zn9-zd-9F7">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
@@ -167,26 +167,31 @@
             </objects>
             <point key="canvasLocation" x="550" y="45"/>
         </scene>
-        <!--View Controller - Twitter-->
+        <!--Twitter View Controller - Twitter-->
         <scene sceneID="XWH-gh-tNB">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rmJ-Lp-yN6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="UZM-nh-gDg" sceneMemberID="viewController">
+                <viewController id="UZM-nh-gDg" customClass="TwitterViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cq7-hr-p3t">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="erB-xU-eSd">
-                                <rect key="frame" x="125" y="156" width="70" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="101"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <webView contentMode="scaleToFill" id="Voc-l4-xTT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="411"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="UZM-nh-gDg" id="jCY-aC-fG5"/>
+                                </connections>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Twitter" image="Twitter.png" id="xJL-nl-EeD"/>
+                    <connections>
+                        <outlet property="webView" destination="Voc-l4-xTT" id="lQK-ip-uPg"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="558" y="631"/>
@@ -313,21 +318,6 @@
         <image name="mcbg.png" width="320" height="480"/>
         <image name="star3.png" width="25" height="26"/>
     </resources>
-    <classes>
-        <class className="DisplayViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DisplayViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="currentImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="speakerNotes" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="ScheduleTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScheduleTableViewController.h"/>
-        </class>
-        <class className="SpeakersTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SpeakersTableViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
