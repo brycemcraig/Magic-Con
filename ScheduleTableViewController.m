@@ -34,9 +34,32 @@
     [super viewDidLoad];
 
     
-    // Load the data.
+    
+    
+    //TODO: Check network status
+    
+    //TODO: load remote plist or load local plist if no connection found
+
+    
+    // Load the data from remote server.
+    
+    NSURL *url = [NSURL URLWithString:@"http://www.pusherhq.com/dev/mc3/remote-schedule.plist"];
+    
+    self.tableData = [[NSArray alloc] initWithContentsOfURL:url];
+    
+    
+    //Load the schedule data from the local backup if no internet connection.
+    if (tableData == nil) {
+        
+        self.tableData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"local-schedule" ofType:@"plist"]];
+    }
+
+    
+    
+    
    
-    self.tableData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"schedule" ofType:@"plist"]];
+   
+    // self.tableData = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"schedule" ofType:@"plist"]];
     
 
     
@@ -93,10 +116,24 @@
 
     
     cell.textLabel.text = [[[[tableData objectAtIndex: indexPath.section] objectForKey:@"Events"] objectAtIndex:indexPath.row] objectForKey:@"name"];
-    cell.detailTextLabel.text = [[[[tableData objectAtIndex: indexPath.section] objectForKey:@"Events"] objectAtIndex:indexPath.row] objectForKey:@"time"];
+    cell.detailTextLabel.text = [[[[tableData objectAtIndex: indexPath.section] objectForKey:@"Events"] objectAtIndex:indexPath.row] objectForKey:@"details"];
     
     return cell;
 }
+
+- (CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath: (NSIndexPath *) indexPath
+{
+    
+    UITableViewCell *cell = (UITableViewCell*)[self tableView:tableView cellForRowAtIndexPath:indexPath];
+	
+	NSString *text = cell.detailTextLabel.text; // [[[[tableData objectAtIndex: indexPath.section] objectForKey:@"Events"] objectAtIndex:indexPath.row] objectForKey:@"time"];
+
+	CGFloat height = [text sizeWithFont:cell.detailTextLabel.font constrainedToSize:CGSizeMake(240,70) lineBreakMode:UILineBreakModeWordWrap].height;
+	//return MAX(height, MinHeight);
+	
+	return height+30; 
+}
+
 
 /*
 // Override to support conditional editing of the table view.

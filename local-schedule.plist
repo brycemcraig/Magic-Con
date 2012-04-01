@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Thursday - April 12</string>
+		<key>Events</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Welcome Party</string>
+				<key>details</key>
+				<string>Main Hall</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Friday - April 13</string>
+		<key>Events</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>10am: Morning Session</string>
+				<key>details</key>
+				<string>Hosted by Max Maven and featuring: Helder Guimares, Mike Caveney, Lennart Green, A.Bandit, David Regal, and Bill Kalush.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>12pm: Lunch Break</string>
+				<key>details</key>
+				<string>   </string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>2pm: Afternoon Session</string>
+				<key>details</key>
+				<string>Paul Wilson, Stephen Macknik and Susana Martines-Conde</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>4pm: Afternoon Lectures</string>
+				<key>details</key>
+				<string>Mike Caveney and Richard Kaufman</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>6pm: Dinner Break</string>
+				<key>details</key>
+				<string>   </string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>9pm: Special Event</string>
+				<key>details</key>
+				<string>Dai Vernon</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>11pm: Evening Lecture</string>
+				<key>details</key>
+				<string>Helder Guimares</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Saturday - April 14</string>
+		<key>Events</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Daniel Garcia</string>
+				<key>details</key>
+				<string>10am</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Jared Kopf</string>
+				<key>details</key>
+				<string>11am</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Lunch</string>
+				<key>details</key>
+				<string>12pm</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Mahdi Gilbert</string>
+				<key>details</key>
+				<string>2pm</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Chris Korn</string>
+				<key>details</key>
+				<string>4pm</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Dinner</string>
+				<key>details</key>
+				<string>6pm</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Evening Show</string>
+				<key>details</key>
+				<string>8pm</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Sunday - April 15</string>
+		<key>Events</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Event 1</string>
+				<key>details</key>
+				<string>10am</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Event 2</string>
+				<key>details</key>
+				<string>11am</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Lunch</string>
+				<key>details</key>
+				<string>12pm</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Event 3</string>
+				<key>details</key>
+				<string>2pm</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Event 4</string>
+				<key>details</key>
+				<string>4pm</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Dinner</string>
+				<key>details</key>
+				<string>6pm</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Event 5</string>
+				<key>details</key>
+				<string>8pm</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

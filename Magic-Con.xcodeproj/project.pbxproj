@@ -50,7 +50,8 @@
 		8A25D7B4152304C80043D753 /* mcbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A25D7B2152304C80043D753 /* mcbg@2x.png */; };
 		8A25D7B71523091B0043D753 /* star3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A25D7B51523091B0043D753 /* star3.png */; };
 		8A25D7B81523091B0043D753 /* star3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A25D7B61523091B0043D753 /* star3@2x.png */; };
-		8AD32391152063760087A367 /* schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AD32390152063760087A367 /* schedule.plist */; };
+		8A25D7C215280EF80043D753 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A25D7C115280EF80043D753 /* SystemConfiguration.framework */; };
+		8AD32391152063760087A367 /* local-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AD32390152063760087A367 /* local-schedule.plist */; };
 		8AF969A915148120009D4B3E /* adam-rubin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697215148120009D4B3E /* adam-rubin.jpeg */; };
 		8AF969AA15148120009D4B3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9697415148120009D4B3E /* AppDelegate.m */; };
 		8AF969AB15148120009D4B3E /* brad-fulton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697515148120009D4B3E /* brad-fulton.jpeg */; };
@@ -132,7 +133,8 @@
 		8A25D7B2152304C80043D753 /* mcbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mcbg@2x.png"; sourceTree = "<group>"; };
 		8A25D7B51523091B0043D753 /* star3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star3.png; sourceTree = "<group>"; };
 		8A25D7B61523091B0043D753 /* star3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star3@2x.png"; sourceTree = "<group>"; };
-		8AD32390152063760087A367 /* schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = schedule.plist; sourceTree = "<group>"; };
+		8A25D7C115280EF80043D753 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8AD32390152063760087A367 /* local-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "local-schedule.plist"; sourceTree = "<group>"; };
 		8AF9697215148120009D4B3E /* adam-rubin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adam-rubin.jpeg"; sourceTree = "<group>"; };
 		8AF9697315148120009D4B3E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AF9697415148120009D4B3E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A25D7C215280EF80043D753 /* SystemConfiguration.framework in Frameworks */,
 				0B32FA71150BF1270073511B /* UIKit.framework in Frameworks */,
 				0B32FA73150BF1270073511B /* Foundation.framework in Frameworks */,
 				0B32FA75150BF1270073511B /* CoreGraphics.framework in Frameworks */,
@@ -226,6 +229,7 @@
 		0B32FA6F150BF1270073511B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A25D7C115280EF80043D753 /* SystemConfiguration.framework */,
 				0B32FA70150BF1270073511B /* UIKit.framework */,
 				0B32FA72150BF1270073511B /* Foundation.framework */,
 				0B32FA74150BF1270073511B /* CoreGraphics.framework */,
@@ -296,7 +300,7 @@
 		8AF969D61514813B009D4B3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AD32390152063760087A367 /* schedule.plist */,
+				8AD32390152063760087A367 /* local-schedule.plist */,
 				8AF969D71514818A009D4B3E /* Images */,
 			);
 			name = "Supporting Files";
@@ -406,7 +410,7 @@
 				8AF969CA15148120009D4B3E /* rob-zabrecky.jpeg in Resources */,
 				8AF969CB15148120009D4B3E /* roberto-mansilla.jpeg in Resources */,
 				8AF969D115148120009D4B3E /* tony-chang.jpeg in Resources */,
-				8AD32391152063760087A367 /* schedule.plist in Resources */,
+				8AD32391152063760087A367 /* local-schedule.plist in Resources */,
 				0B2E471A15226BF9003A3B19 /* mahdi-gilbert.jpeg in Resources */,
 				0B2E471C15226C62003A3B19 /* paul-wilson.jpeg in Resources */,
 				8A25D7771522F8B80043D753 /* Clock.png in Resources */,
