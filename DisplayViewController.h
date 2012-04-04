@@ -12,6 +12,7 @@
 @interface DisplayViewController : UIViewController
 
 @property (strong, nonatomic) Speaker *currentSpeaker;
+@property (strong, nonatomic) NSDictionary *currentSpeakerDict;
 @property (weak, nonatomic) IBOutlet UIImageView *currentImage;
 @property (weak, nonatomic) IBOutlet UITextView *speakerNotes;
 

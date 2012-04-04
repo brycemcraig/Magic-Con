@@ -14,6 +14,7 @@
 @synthesize currentSpeaker;
 @synthesize currentImage;
 @synthesize speakerNotes;
+@synthesize currentSpeakerDict;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -47,11 +48,10 @@
 {
     [super viewDidLoad];
     
-    UIImage *image = [UIImage imageNamed:[currentSpeaker filename]];
+    UIImage *image = [UIImage imageNamed:[currentSpeakerDict objectForKey:@"filename"]];
     [self.currentImage setImage:image];
-    [self setTitle:[currentSpeaker name]];
-    
-    [speakerNotes setText:[currentSpeaker notes]];
+    [self setTitle:[currentSpeakerDict objectForKey:@"name"]];
+    [speakerNotes setText:[currentSpeakerDict objectForKey:@"notes"]];
                       
 }
 

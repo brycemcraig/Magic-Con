@@ -37,15 +37,12 @@
     
     
     //TODO: Check network status
-    
-    //TODO: load remote plist or load local plist if no connection found
 
     
     // Load the data from remote server.
     
-    NSURL *url = [NSURL URLWithString:@"http://www.pusherhq.com/dev/mc3/remote-schedule.plist"];
-    
-    self.tableData = [[NSArray alloc] initWithContentsOfURL:url];
+   NSURL *url = [NSURL URLWithString:@"http://www.pusherhq.com/dev/mc3/remote-schedule.plist"];   
+   self.tableData = [[NSArray alloc] initWithContentsOfURL:url];
     
     
     //Load the schedule data from the local backup if no internet connection.

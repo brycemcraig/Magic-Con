@@ -51,6 +51,13 @@
 		8A25D7B71523091B0043D753 /* star3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A25D7B51523091B0043D753 /* star3.png */; };
 		8A25D7B81523091B0043D753 /* star3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A25D7B61523091B0043D753 /* star3@2x.png */; };
 		8A25D7C215280EF80043D753 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A25D7C115280EF80043D753 /* SystemConfiguration.framework */; };
+		8A25D7CB15283AF90043D753 /* local-speakers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A25D7CA15283AF90043D753 /* local-speakers.plist */; };
+		8AC6F4FF152B957500439586 /* john-lovick.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6F4FE152B957500439586 /* john-lovick.jpeg */; };
+		8AC6F505152B989A00439586 /* engblom_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6F503152B989A00439586 /* engblom_sm.png */; };
+		8AC6F506152B989A00439586 /* lovick_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6F504152B989A00439586 /* lovick_sm.png */; };
+		8AC6F508152B99E400439586 /* christian-engblom.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6F507152B99E400439586 /* christian-engblom.jpeg */; };
+		8AC6F50A152BB3DB00439586 /* alexander_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6F509152BB3DB00439586 /* alexander_sm.png */; };
+		8AC6F50C152BB3E300439586 /* jason-alexander.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6F50B152BB3E300439586 /* jason-alexander.jpeg */; };
 		8AD32391152063760087A367 /* local-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AD32390152063760087A367 /* local-schedule.plist */; };
 		8AF969A915148120009D4B3E /* adam-rubin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9697215148120009D4B3E /* adam-rubin.jpeg */; };
 		8AF969AA15148120009D4B3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9697415148120009D4B3E /* AppDelegate.m */; };
@@ -134,6 +141,13 @@
 		8A25D7B51523091B0043D753 /* star3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star3.png; sourceTree = "<group>"; };
 		8A25D7B61523091B0043D753 /* star3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star3@2x.png"; sourceTree = "<group>"; };
 		8A25D7C115280EF80043D753 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8A25D7CA15283AF90043D753 /* local-speakers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "local-speakers.plist"; sourceTree = "<group>"; };
+		8AC6F4FE152B957500439586 /* john-lovick.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "john-lovick.jpeg"; sourceTree = "<group>"; };
+		8AC6F503152B989A00439586 /* engblom_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = engblom_sm.png; sourceTree = "<group>"; };
+		8AC6F504152B989A00439586 /* lovick_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lovick_sm.png; sourceTree = "<group>"; };
+		8AC6F507152B99E400439586 /* christian-engblom.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "christian-engblom.jpeg"; sourceTree = "<group>"; };
+		8AC6F509152BB3DB00439586 /* alexander_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alexander_sm.png; sourceTree = "<group>"; };
+		8AC6F50B152BB3E300439586 /* jason-alexander.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jason-alexander.jpeg"; sourceTree = "<group>"; };
 		8AD32390152063760087A367 /* local-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "local-schedule.plist"; sourceTree = "<group>"; };
 		8AF9697215148120009D4B3E /* adam-rubin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adam-rubin.jpeg"; sourceTree = "<group>"; };
 		8AF9697315148120009D4B3E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -240,6 +254,7 @@
 		8A25D7811522FB9E0043D753 /* speaker icons */ = {
 			isa = PBXGroup;
 			children = (
+				8AC6F509152BB3DB00439586 /* alexander_sm.png */,
 				8A25D7831522FC2B0043D753 /* acer_sm.png */,
 				8A25D7841522FC2B0043D753 /* blaine_sm.png */,
 				8A25D7851522FC2B0043D753 /* chang_sm.png */,
@@ -258,6 +273,8 @@
 				8A25D7921522FC2B0043D753 /* piff_sm.png */,
 				8A25D7931522FC2B0043D753 /* rubin_sm.png */,
 				8A25D7941522FC2B0043D753 /* smith_sm.png */,
+				8AC6F503152B989A00439586 /* engblom_sm.png */,
+				8AC6F504152B989A00439586 /* lovick_sm.png */,
 				8A25D7951522FC2B0043D753 /* steinmeyer_sm.png */,
 				8A25D7961522FC2B0043D753 /* takayama_sm.png */,
 				8A25D7971522FC2B0043D753 /* weber_sm.png */,
@@ -270,10 +287,13 @@
 		8A25D7821522FBF30043D753 /* speaker images */ = {
 			isa = PBXGroup;
 			children = (
+				8AC6F50B152BB3E300439586 /* jason-alexander.jpeg */,
+				8AC6F4FE152B957500439586 /* john-lovick.jpeg */,
 				8AF9697215148120009D4B3E /* adam-rubin.jpeg */,
 				8AF9697515148120009D4B3E /* brad-fulton.jpeg */,
 				8AF9697615148120009D4B3E /* chad-long.jpeg */,
 				8AF9697715148120009D4B3E /* chris-korn.jpeg */,
+				8AC6F507152B99E400439586 /* christian-engblom.jpeg */,
 				8AF9697B15148120009D4B3E /* dani-daortiz.jpeg */,
 				8AF9697C15148120009D4B3E /* daniel-garcia.jpeg */,
 				8AF9698F15148120009D4B3E /* jim-steinmeyer.jpeg */,
@@ -302,6 +322,7 @@
 			children = (
 				8AD32390152063760087A367 /* local-schedule.plist */,
 				8AF969D71514818A009D4B3E /* Images */,
+				8A25D7CA15283AF90043D753 /* local-speakers.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -450,6 +471,13 @@
 				8A25D7B4152304C80043D753 /* mcbg@2x.png in Resources */,
 				8A25D7B71523091B0043D753 /* star3.png in Resources */,
 				8A25D7B81523091B0043D753 /* star3@2x.png in Resources */,
+				8A25D7CB15283AF90043D753 /* local-speakers.plist in Resources */,
+				8AC6F4FF152B957500439586 /* john-lovick.jpeg in Resources */,
+				8AC6F505152B989A00439586 /* engblom_sm.png in Resources */,
+				8AC6F506152B989A00439586 /* lovick_sm.png in Resources */,
+				8AC6F508152B99E400439586 /* christian-engblom.jpeg in Resources */,
+				8AC6F50A152BB3DB00439586 /* alexander_sm.png in Resources */,
+				8AC6F50C152BB3E300439586 /* jason-alexander.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

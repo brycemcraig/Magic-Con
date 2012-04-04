@@ -9,9 +9,15 @@
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Welcome Party</string>
+				<string>3pm: REGISTRATION OPENS</string>
 				<key>details</key>
-				<string>Main Hall</string>
+				<string>   </string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>7pm: WELCOMING RECEPTION</string>
+				<key>details</key>
+				<string>Piff the Magic Dragon</string>
 			</dict>
 		</array>
 	</dict>
@@ -22,45 +28,45 @@
 		<array>
 			<dict>
 				<key>name</key>
-				<string>10am: Morning Session</string>
+				<string>10am: MORNING SESSION</string>
 				<key>details</key>
-				<string>Hosted by Max Maven and featuring: Helder Guimares, Mike Caveney, Lennart Green, A.Bandit, David Regal, and Bill Kalush.</string>
+				<string>Hosted by Paul Wilson and featuring Jared Kopf, Kevin Ho, David Acer and Rob Zabrecky</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>12pm: Lunch Break</string>
+				<string>12pm: LUNCH</string>
 				<key>details</key>
 				<string>   </string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>2pm: Afternoon Session</string>
+				<string>2pm: AFTERNOON SESSION</string>
 				<key>details</key>
-				<string>Paul Wilson, Stephen Macknik and Susana Martines-Conde</string>
+				<string>Hosted by John Lovick and featuring Jim Steinmeyer, Lance Pierce, Brad Fulton and Jason Alexander</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>4pm: Afternoon Lectures</string>
+				<string>4pm: AFTERNOON LECTURES</string>
 				<key>details</key>
-				<string>Mike Caveney and Richard Kaufman</string>
+				<string>Piff the Magic Dragon and Lance Pierce</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>6pm: Dinner Break</string>
+				<string>6pm: DINNER</string>
 				<key>details</key>
 				<string>   </string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>9pm: Special Event</string>
+				<string>9pm: AN EVENING ENCOUNTER WITH...</string>
 				<key>details</key>
-				<string>Dai Vernon</string>
+				<string>Rob Zabrecky and the Moon</string>
 			</dict>
 			<dict>
 				<key>name</key>
 				<string>11pm: Evening Lecture</string>
 				<key>details</key>
-				<string>Helder Guimares</string>
+				<string>Jared Kopf</string>
 			</dict>
 		</array>
 	</dict>
@@ -71,45 +77,45 @@
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Daniel Garcia</string>
+				<string>10am: MORNING SESSION</string>
 				<key>details</key>
-				<string>10am</string>
+				<string>Hosted by Chad Long and featuring Mahdi Gilbert, Tony Chang, Adam Rubin, Ricky Smith, David Acer</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Jared Kopf</string>
+				<string>12pm: LUNCH</string>
 				<key>details</key>
-				<string>11am</string>
+				<string>   </string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Lunch</string>
+				<string>2pm: AFTERNOON SESSION</string>
 				<key>details</key>
-				<string>12pm</string>
+				<string>Panel discussion with David Blaine, Daniel Garcia, Doug McKenzie, Cyril Takayama and Enrico de la Vega</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Mahdi Gilbert</string>
+				<string>3pm: AFTERNOON LECTURES</string>
 				<key>details</key>
-				<string>2pm</string>
+				<string>Adam Rubin, Roberto Mansilla and Rob Zabrecky</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Chris Korn</string>
+				<string>6pm: DINNER</string>
 				<key>details</key>
-				<string>4pm</string>
+				<string>   </string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Dinner</string>
+				<string>9pm: EVENING SHOW</string>
 				<key>details</key>
-				<string>6pm</string>
+				<string>Hosted by John Lovick and featuring Adam Rubin, Chris Korn, Roberto Mansilla, Dani DaOrtiz and David Acer</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Evening Show</string>
+				<string>11PM: EVENING LECTURE</string>
 				<key>details</key>
-				<string>8pm</string>
+				<string>The Fat Brothers</string>
 			</dict>
 		</array>
 	</dict>
@@ -120,45 +126,27 @@
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Event 1</string>
+				<string>10am: MORNING SESSION</string>
 				<key>details</key>
-				<string>10am</string>
+				<string>Hosted by Michael Weber and featuring Roberto Mansilla, Jared Kopf and Chad Long</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Event 2</string>
+				<string>12pm: LUNCH</string>
 				<key>details</key>
-				<string>11am</string>
+				<string>   </string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Lunch</string>
+				<string>2pm: AFTERNOON LECTURES</string>
 				<key>details</key>
-				<string>12pm</string>
+				<string>Michael Weber and Dani DaOrtiz</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Event 3</string>
+				<string>4pm: CLOSING PRESENTATION</string>
 				<key>details</key>
-				<string>2pm</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Event 4</string>
-				<key>details</key>
-				<string>4pm</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Dinner</string>
-				<key>details</key>
-				<string>6pm</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Event 5</string>
-				<key>details</key>
-				<string>8pm</string>
+				<string>   </string>
 			</dict>
 		</array>
 	</dict>
